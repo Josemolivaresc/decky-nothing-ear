@@ -9,7 +9,7 @@
 > If you're on the Linux desktop, use BudsLink: it supports many more brands (Apple, Sony, Samsung, Nothing…) and is [available on Flathub](https://flathub.org/apps/io.github.maniacx.BudsLink). Go give it a ⭐. The credit for this work belongs to its author and to the projects BudsLink builds on, [ear-web](https://github.com/radiance-project/ear-web) and [earctl](https://github.com/DaanHessen/earctl).
 
 > [!NOTE]
-> **Written by AI.** All the code in this plugin was written by **Claude Opus 5.5** (Anthropic's AI model), directed and tested by Jose.
+> **Written by AI.** All the code in this plugin was written by **Claude Opus 5.5** (Anthropic's AI model), directed and tested by me.
 
 > [!WARNING]
 > **Only tested with the Nothing Ear (2024, model B171).** Other Nothing and CMF models are included because BudsLink supports them, but they have **not been tested** and some options may not work. If you try another model, please [open an issue](../../issues).
@@ -51,7 +51,6 @@ To update, repeat step 3. Updates are not automatic.
 ## Known issues
 
 - **Only one app can use the control channel at a time.** If BudsLink or another app is connected to the earbuds, close it first.
-- Decky always lists the plugin. When no earbuds are connected the panel just shows a short notice, and a notification appears when they connect or disconnect.
 
 ## How it works
 
