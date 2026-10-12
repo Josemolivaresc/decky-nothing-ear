@@ -1,0 +1,3182 @@
+{
+ "B163": {
+  "name": "Buds Pro",
+  "pattern": "^.*Buds Pro$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 0,
+  "in_ear": true,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "play-pause": [
+     2
+    ],
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "tap",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "triple": {
+     "kind": "tap",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "action-hold": {
+     "kind": "tap",
+     "actions": [
+      "noise-control",
+      "voice-assistant"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "tap",
+     "actions": [
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B168": {
+  "name": "CMF Buds",
+  "pattern": "^.*CMF Buds$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "anc": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "dirac": 0,
+   "pop": 3,
+   "rock": 1,
+   "electronic": 2,
+   "enhance_vocals": 4,
+   "classical": 5,
+   "custom": 6
+  },
+  "eq_listening_mode": true,
+  "bass_levels": 5,
+  "in_ear": true,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "play-pause": [
+     2
+    ],
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "tap",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "triple": {
+     "kind": "tap",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "tap",
+     "actions": [
+      "noise-control",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "tap",
+     "actions": [
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B179": {
+  "name": "CMF Buds 2",
+  "pattern": "^.*CMF Buds 2$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "dirac": 0,
+   "pop": 3,
+   "rock": 1,
+   "electronic": 2,
+   "enhance_vocals": 4,
+   "classical": 5,
+   "custom": 6
+  },
+  "eq_listening_mode": true,
+  "bass_levels": 5,
+  "in_ear": false,
+  "spatial": true,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "news-description": [
+     31
+    ],
+    "play-pause": [
+     2
+    ],
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "tap",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "news-description",
+      "no-action"
+     ]
+    },
+    "triple": {
+     "kind": "tap",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "news-description",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "tap",
+     "actions": [
+      "noise-control",
+      "voice-assistant",
+      "news-description",
+      "no-action"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "tap",
+     "actions": [
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "news-description",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B185": {
+  "name": "CMF Buds 2a",
+  "pattern": "^.*CMF Buds 2a$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "anc": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "dirac": 7,
+   "pop": 3,
+   "rock": 1,
+   "electronic": 2,
+   "enhance_vocals": 4,
+   "classical": 5,
+   "custom": 6
+  },
+  "eq_listening_mode": true,
+  "bass_levels": 5,
+  "in_ear": false,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "play-pause": [
+     2
+    ],
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ],
+    "news-description": [
+     31
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "tap",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "news-description",
+      "no-action"
+     ]
+    },
+    "triple": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "news-description",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "noise-control",
+      "voice-assistant",
+      "news-description",
+      "no-action"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "news-description",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B184": {
+  "name": "CMF Buds 2 Plus",
+  "pattern": "^.*CMF Buds 2 Plus$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "pop": 3,
+   "rock": 1,
+   "electronic": 2,
+   "enhance_vocals": 4,
+   "classical": 5,
+   "custom": 6
+  },
+  "eq_listening_mode": true,
+  "bass_levels": 5,
+  "in_ear": true,
+  "spatial": true,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "play-pause": [
+     2
+    ],
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "tap",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "triple": {
+     "kind": "tap",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "tap",
+     "actions": [
+      "noise-control",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "tap",
+     "actions": [
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B193": {
+  "name": "CMF Buds Neo",
+  "pattern": "^.*CMF Buds Neo$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "anc": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "dirac": 0,
+   "pop": 3,
+   "rock": 1,
+   "electronic": 2,
+   "enhance_vocals": 4,
+   "classical": 5,
+   "custom": 6
+  },
+  "eq_listening_mode": true,
+  "bass_levels": 5,
+  "in_ear": false,
+  "spatial": true,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "play-pause": [
+     2
+    ],
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "tap",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "triple": {
+     "kind": "tap",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "tap",
+     "actions": [
+      "noise-control",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "tap",
+     "actions": [
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B172": {
+  "name": "CMF Buds Pro 2",
+  "pattern": "^.*CMF Buds Pro 2$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "dirac": 0,
+   "pop": 3,
+   "rock": 1,
+   "electronic": 2,
+   "enhance_vocals": 4,
+   "classical": 5,
+   "custom": 6
+  },
+  "eq_listening_mode": true,
+  "bass_levels": 5,
+  "in_ear": true,
+  "spatial": true,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "case-knob",
+     "device": 4,
+     "buttonId": 1,
+     "type": "case-knob-single"
+    },
+    {
+     "group": "case-knob",
+     "device": 4,
+     "buttonId": 1,
+     "type": "case-knob-double"
+    },
+    {
+     "group": "case-knob",
+     "device": 4,
+     "buttonId": 1,
+     "type": "case-knob-triple"
+    },
+    {
+     "group": "case-knob",
+     "device": 4,
+     "buttonId": 1,
+     "type": "case-knob-action-hold"
+    },
+    {
+     "group": "case-knob",
+     "device": 4,
+     "buttonId": 1,
+     "type": "case-knob-double-action-hold"
+    },
+    {
+     "group": "case-knob",
+     "device": 4,
+     "buttonId": 1,
+     "type": "case-knob-rotate"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9,
+    "case-knob-single": 1,
+    "case-knob-double": 2,
+    "case-knob-triple": 3,
+    "case-knob-action-hold": 7,
+    "case-knob-double-action-hold": 9,
+    "case-knob-rotate": 10
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "play-pause": [
+     2
+    ],
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ],
+    "case-game-mode": [
+     17
+    ],
+    "volume-control": [
+     23
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "tap",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "triple": {
+     "kind": "tap",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "tap",
+     "actions": [
+      "noise-control",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "tap",
+     "actions": [
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "case-knob-single": {
+     "kind": "press",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "case-game-mode",
+      "no-action"
+     ]
+    },
+    "case-knob-double": {
+     "kind": "press",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "case-game-mode",
+      "no-action"
+     ]
+    },
+    "case-knob-triple": {
+     "kind": "press",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "case-game-mode",
+      "no-action"
+     ]
+    },
+    "case-knob-action-hold": {
+     "kind": "press",
+     "actions": [
+      "noise-control",
+      "voice-assistant",
+      "case-game-mode",
+      "no-action"
+     ]
+    },
+    "case-knob-double-action-hold": {
+     "kind": "press",
+     "actions": [
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "case-game-mode",
+      "no-action"
+     ]
+    },
+    "case-knob-rotate": {
+     "kind": "rotate",
+     "actions": [
+      "volume-control",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B187": {
+  "name": "CMF Buds Pro 2",
+  "pattern": "^.*CMF Buds Pro 2$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "dirac": 0,
+   "pop": 3,
+   "rock": 1,
+   "electronic": 2,
+   "enhance_vocals": 4,
+   "classical": 5,
+   "custom": 6
+  },
+  "eq_listening_mode": true,
+  "bass_levels": 5,
+  "in_ear": true,
+  "spatial": true,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "case-knob",
+     "device": 4,
+     "buttonId": 1,
+     "type": "case-knob-single"
+    },
+    {
+     "group": "case-knob",
+     "device": 4,
+     "buttonId": 1,
+     "type": "case-knob-double"
+    },
+    {
+     "group": "case-knob",
+     "device": 4,
+     "buttonId": 1,
+     "type": "case-knob-triple"
+    },
+    {
+     "group": "case-knob",
+     "device": 4,
+     "buttonId": 1,
+     "type": "case-knob-action-hold"
+    },
+    {
+     "group": "case-knob",
+     "device": 4,
+     "buttonId": 1,
+     "type": "case-knob-double-action-hold"
+    },
+    {
+     "group": "case-knob",
+     "device": 4,
+     "buttonId": 1,
+     "type": "case-knob-rotate"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9,
+    "case-knob-single": 1,
+    "case-knob-double": 2,
+    "case-knob-triple": 3,
+    "case-knob-action-hold": 7,
+    "case-knob-double-action-hold": 9,
+    "case-knob-rotate": 10
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "play-pause": [
+     2
+    ],
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ],
+    "case-game-mode": [
+     17
+    ],
+    "volume-control": [
+     23
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "tap",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "triple": {
+     "kind": "tap",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "tap",
+     "actions": [
+      "noise-control",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "tap",
+     "actions": [
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "case-knob-single": {
+     "kind": "press",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "case-game-mode",
+      "no-action"
+     ]
+    },
+    "case-knob-double": {
+     "kind": "press",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "case-game-mode",
+      "no-action"
+     ]
+    },
+    "case-knob-triple": {
+     "kind": "press",
+     "actions": [
+      "play-pause",
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "case-game-mode",
+      "no-action"
+     ]
+    },
+    "case-knob-action-hold": {
+     "kind": "press",
+     "actions": [
+      "noise-control",
+      "voice-assistant",
+      "case-game-mode",
+      "no-action"
+     ]
+    },
+    "case-knob-double-action-hold": {
+     "kind": "press",
+     "actions": [
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "case-game-mode",
+      "no-action"
+     ]
+    },
+    "case-knob-rotate": {
+     "kind": "rotate",
+     "actions": [
+      "volume-control",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B175": {
+  "name": "CMF Headphone Pro",
+  "pattern": "^.*CMF Headphone Pro$",
+  "single_battery": true,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 5,
+  "in_ear": true,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "single",
+     "device": 6,
+     "buttonId": 10,
+     "type": "single"
+    },
+    {
+     "group": "single",
+     "device": 6,
+     "buttonId": 10,
+     "type": "action-hold"
+    },
+    {
+     "group": "roller",
+     "device": 6,
+     "buttonId": 1,
+     "type": "roller-action-hold"
+    },
+    {
+     "group": "slider",
+     "device": 6,
+     "buttonId": 5,
+     "type": "slider-single"
+    }
+   ],
+   "types": {
+    "single": 1,
+    "action-hold": 7,
+    "roller-action-hold": 7,
+    "slider-single": 1
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "channel-hop": [
+     32
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "news-description": [
+     31
+    ],
+    "spatial-audio": [
+     27
+    ],
+    "mic-on-off": [
+     29
+    ],
+    "eq-preset": [
+     34
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ],
+    "ultra-bass": [
+     35
+    ],
+    "treble-enhance": [
+     36
+    ]
+   },
+   "gestures": {
+    "single": {
+     "kind": "press",
+     "actions": [
+      "channel-hop",
+      "voice-assistant",
+      "news-description",
+      "spatial-audio",
+      "mic-on-off",
+      "eq-preset",
+      "noise-control",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "press",
+     "actions": [
+      "channel-hop",
+      "voice-assistant",
+      "news-description",
+      "spatial-audio",
+      "mic-on-off",
+      "eq-preset",
+      "noise-control",
+      "no-action"
+     ]
+    },
+    "roller-action-hold": {
+     "kind": "press",
+     "actions": [
+      "noise-control",
+      "no-action"
+     ]
+    },
+    "slider-single": {
+     "kind": "slide",
+     "actions": [
+      "ultra-bass",
+      "treble-enhance"
+     ]
+    }
+   }
+  }
+ },
+ "B155": {
+  "name": "Ear (2)",
+  "pattern": "^.*Ear \\(2\\)$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": true,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5,
+   "advance": 6
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 0,
+  "in_ear": true,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "no-action": [
+     1
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "triple": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "noise-control",
+      "volume-up",
+      "volume-down",
+      "voice-assistant"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "noise-control",
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B157": {
+  "name": "Ear (Stick)",
+  "pattern": "^.*Ear \\(Stick\\)$",
+  "single_battery": false,
+  "anc": {
+   "off": 1,
+   "anc": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5,
+   "advance": 6
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 0,
+  "in_ear": true,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "no-action": [
+     1
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "triple": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "noise-control",
+      "volume-up",
+      "volume-down",
+      "voice-assistant"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "noise-control",
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B164": {
+  "name": "Neckband Pro",
+  "pattern": "^.*Neckband Pro$",
+  "single_battery": true,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 5,
+  "in_ear": false,
+  "spatial": true,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "single",
+     "device": 6,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "single",
+     "device": 6,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "single",
+     "device": 6,
+     "buttonId": 1,
+     "type": "action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7
+   },
+   "actions": {
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "tap",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "triple": {
+     "kind": "tap",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "action-hold": {
+     "kind": "tap",
+     "actions": [
+      "noise-control"
+     ]
+    }
+   }
+  }
+ },
+ "B171": {
+  "name": "Nothing Ear",
+  "pattern": "^.*Nothing Ear$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": true,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5,
+   "advance": 6
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 5,
+  "in_ear": true,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ],
+    "no-action": [
+     1
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "triple": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "noise-control",
+      "volume-up",
+      "volume-down",
+      "voice-assistant"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "noise-control",
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B181": {
+  "name": "Nothing ear (1)",
+  "pattern": "^.*Nothing ear \\(1\\)$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "high": 1
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 0,
+  "in_ear": false,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": true,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    }
+   ],
+   "types": {
+    "triple": 3,
+    "action-hold": 7
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "anc-type": [
+     10
+    ]
+   },
+   "gestures": {
+    "triple": {
+     "kind": "tap",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "tap",
+     "actions": [
+      "anc-type",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B173": {
+  "name": "Nothing Ear (3)",
+  "pattern": "^.*Nothing Ear \\(3\\)$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": true,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5,
+   "advance": 6
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 0,
+  "in_ear": true,
+  "spatial": true,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "skip-forward": [
+     9
+    ],
+    "skip-back": [
+     8
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "mic-on-off": [
+     29
+    ],
+    "essential-space": [
+     33
+    ],
+    "no-action": [
+     1
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "press",
+     "actions": [
+      "skip-forward",
+      "skip-back",
+      "voice-assistant"
+     ]
+    },
+    "triple": {
+     "kind": "press",
+     "actions": [
+      "skip-forward",
+      "skip-back",
+      "voice-assistant",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "press",
+     "actions": [
+      "noise-control",
+      "voice-assistant",
+      "volume-up",
+      "volume-down",
+      "mic-on-off",
+      "no-action"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "press",
+     "actions": [
+      "noise-control",
+      "voice-assistant",
+      "volume-up",
+      "volume-down",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B162": {
+  "name": "Nothing Ear (a)",
+  "pattern": "^.*Nothing Ear \\(a\\)$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 5,
+  "in_ear": true,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "no-action": [
+     1
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "triple": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "noise-control",
+      "volume-up",
+      "volume-down",
+      "voice-assistant"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "noise-control",
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B174": {
+  "name": "Nothing Ear (open)",
+  "pattern": "^.*Nothing Ear \\(open\\)$",
+  "single_battery": false,
+  "anc": {},
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 0,
+  "in_ear": false,
+  "spatial": false,
+  "ring": false,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "no-action": [
+     1
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "triple": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "volume-up",
+      "volume-down",
+      "voice-assistant"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B183": {
+  "name": "Nothing Ear (a)",
+  "pattern": "^.*Nothing Ear \\(a\\)$",
+  "single_battery": false,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 5,
+  "in_ear": true,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "left",
+     "device": 2,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "triple"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "action-hold"
+    },
+    {
+     "group": "right",
+     "device": 3,
+     "buttonId": 1,
+     "type": "double-action-hold"
+    }
+   ],
+   "types": {
+    "double": 2,
+    "triple": 3,
+    "action-hold": 7,
+    "double-action-hold": 9
+   },
+   "actions": {
+    "skip-back": [
+     8
+    ],
+    "skip-forward": [
+     9
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ],
+    "volume-up": [
+     18
+    ],
+    "volume-down": [
+     19
+    ],
+    "no-action": [
+     1
+    ]
+   },
+   "gestures": {
+    "double": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "triple": {
+     "kind": "pinch",
+     "actions": [
+      "skip-back",
+      "skip-forward",
+      "voice-assistant"
+     ]
+    },
+    "action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "noise-control",
+      "volume-up",
+      "volume-down",
+      "voice-assistant"
+     ]
+    },
+    "double-action-hold": {
+     "kind": "pinch",
+     "actions": [
+      "noise-control",
+      "volume-up",
+      "volume-down",
+      "voice-assistant",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B170": {
+  "name": "Nothing Headphone (1)",
+  "pattern": "^.*Nothing Headphone \\(1\\)$",
+  "single_battery": true,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5,
+   "advance": 6
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 5,
+  "in_ear": true,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "single",
+     "device": 6,
+     "buttonId": 10,
+     "type": "single"
+    },
+    {
+     "group": "single",
+     "device": 6,
+     "buttonId": 10,
+     "type": "action-hold"
+    },
+    {
+     "group": "roller",
+     "device": 6,
+     "buttonId": 1,
+     "type": "roller-action-hold"
+    }
+   ],
+   "types": {
+    "single": 1,
+    "action-hold": 7,
+    "roller-action-hold": 7
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "channel-hop": [
+     32
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "news-description": [
+     31
+    ],
+    "spatial-audio": [
+     27
+    ],
+    "mic-on-off": [
+     29
+    ],
+    "eq-preset": [
+     34
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ]
+   },
+   "gestures": {
+    "single": {
+     "kind": "press",
+     "actions": [
+      "channel-hop",
+      "voice-assistant",
+      "news-description",
+      "noise-control",
+      "spatial-audio",
+      "mic-on-off",
+      "eq-preset",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "press",
+     "actions": [
+      "channel-hop",
+      "voice-assistant",
+      "news-description",
+      "noise-control",
+      "spatial-audio",
+      "mic-on-off",
+      "eq-preset",
+      "no-action"
+     ]
+    },
+    "roller-action-hold": {
+     "kind": "press",
+     "actions": [
+      "noise-control",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B186": {
+  "name": "Nothing Headphone (a)",
+  "pattern": "^.*Nothing Headphone \\(a\\)$",
+  "single_battery": true,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5,
+   "advance": 6
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 3,
+  "in_ear": false,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "single",
+     "device": 6,
+     "buttonId": 10,
+     "type": "single"
+    },
+    {
+     "group": "single",
+     "device": 6,
+     "buttonId": 10,
+     "type": "action-hold"
+    },
+    {
+     "group": "roller",
+     "device": 6,
+     "buttonId": 1,
+     "type": "roller-action-hold"
+    }
+   ],
+   "types": {
+    "single": 1,
+    "action-hold": 7,
+    "roller-action-hold": 7
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "channel-hop": [
+     32
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "news-description": [
+     31
+    ],
+    "spatial-audio": [
+     27
+    ],
+    "mic-on-off": [
+     29
+    ],
+    "eq-preset": [
+     34
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ],
+    "take-photo": [
+     24
+    ]
+   },
+   "gestures": {
+    "single": {
+     "kind": "press",
+     "actions": [
+      "channel-hop",
+      "voice-assistant",
+      "news-description",
+      "noise-control",
+      "take-photo",
+      "mic-on-off",
+      "eq-preset",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "press",
+     "actions": [
+      "channel-hop",
+      "voice-assistant",
+      "news-description",
+      "noise-control",
+      "mic-on-off",
+      "eq-preset",
+      "no-action"
+     ]
+    },
+    "roller-action-hold": {
+     "kind": "press",
+     "actions": [
+      "noise-control",
+      "no-action"
+     ]
+    }
+   }
+  }
+ },
+ "B198": {
+  "name": "Nothing Headphone (a)",
+  "pattern": "^.*Nothing Headphone \\(a\\)$",
+  "single_battery": true,
+  "anc": {
+   "off": 5,
+   "transparency": 7,
+   "low": 3,
+   "mid": 2,
+   "high": 1,
+   "adaptive": 4
+  },
+  "personalized_anc": false,
+  "low_latency": true,
+  "eq_presets": {
+   "balanced": 0,
+   "voice": 1,
+   "more_treble": 2,
+   "more_bass": 3,
+   "custom": 5,
+   "advance": 6
+  },
+  "eq_listening_mode": false,
+  "bass_levels": 3,
+  "in_ear": false,
+  "spatial": false,
+  "ring": true,
+  "ring_legacy": false,
+  "gestures": {
+   "slots": [
+    {
+     "group": "single",
+     "device": 6,
+     "buttonId": 10,
+     "type": "single"
+    },
+    {
+     "group": "single",
+     "device": 6,
+     "buttonId": 10,
+     "type": "action-hold"
+    },
+    {
+     "group": "roller",
+     "device": 6,
+     "buttonId": 1,
+     "type": "roller-action-hold"
+    }
+   ],
+   "types": {
+    "single": 1,
+    "action-hold": 7,
+    "roller-action-hold": 7
+   },
+   "actions": {
+    "no-action": [
+     1
+    ],
+    "channel-hop": [
+     32
+    ],
+    "voice-assistant": [
+     11
+    ],
+    "news-description": [
+     31
+    ],
+    "spatial-audio": [
+     27
+    ],
+    "mic-on-off": [
+     29
+    ],
+    "eq-preset": [
+     34
+    ],
+    "noise-control": [
+     10,
+     20,
+     21,
+     22
+    ],
+    "take-photo": [
+     24
+    ]
+   },
+   "gestures": {
+    "single": {
+     "kind": "press",
+     "actions": [
+      "channel-hop",
+      "voice-assistant",
+      "news-description",
+      "noise-control",
+      "take-photo",
+      "mic-on-off",
+      "eq-preset",
+      "no-action"
+     ]
+    },
+    "action-hold": {
+     "kind": "press",
+     "actions": [
+      "channel-hop",
+      "voice-assistant",
+      "news-description",
+      "noise-control",
+      "mic-on-off",
+      "eq-preset",
+      "no-action"
+     ]
+    },
+    "roller-action-hold": {
+     "kind": "press",
+     "actions": [
+      "noise-control",
+      "no-action"
+     ]
+    }
+   }
+  }
+ }
+}

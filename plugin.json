@@ -1,0 +1,17 @@
+{
+  "name": "Nothing Ear",
+  "author": "Jose",
+  "flags": [
+    "root"
+  ],
+  "api_version": 1,
+  "publish": {
+    "tags": [
+      "audio",
+      "bluetooth",
+      "root"
+    ],
+    "description": "Control your Nothing and CMF earbuds: battery, noise control, low latency, EQ, gestures and more.",
+    "image": "https://raw.githubusercontent.com/OWNER/decky-nothing-ear/main/assets/logo.png"
+  }
+}
